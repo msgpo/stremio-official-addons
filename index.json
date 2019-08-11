@@ -86,7 +86,7 @@
                 {
                     "type": "movie",
                     "id": "year",
-                    "genres": [
+                    "extra": [{ "name": "genre", "options": [
                         "2019",
                         "2018",
                         "2017",
@@ -102,13 +102,7 @@
                         "2007",
                         "2006",
                         "2005"
-                    ],
-                    "extraSupported": [
-                        "genre"
-                    ],
-                    "extraRequired": [
-                        "genre"
-                    ],
+                    ], "isRequired": true }],
                     "name": "By year"
                 },
                 {
